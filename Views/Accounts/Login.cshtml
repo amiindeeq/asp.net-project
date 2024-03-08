@@ -1,0 +1,25 @@
+﻿@model userlogin;
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <form method="post" asp-action="Login">
+            <div class="form-group">
+                <label class="form-label">Username</label>
+                <input class="form-control" asp-for="username" required placeholder="Enter username" />
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="form-label">Password</label>
+                <input class="form-control" asp-for="password" required placeholder="Enter password" />
+            </div>
+            <br />
+            <input class="btn btn-primary" type="submit" value="Login" />
+            @if (ViewData["error"] != "")
+            {
+                <h3 style="color:red;">@ViewData["error"]</h3>
+            }
+        </form>
+    </div>
+    <div class="col-4"></div>
+</div>

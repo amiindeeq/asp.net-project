@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "_mainLayout";
+}
+
+<p>Tima-ade Univeristy waxey ku taalaa suuqa hoose ee hargeisa gaar ahaan agagaarka tiyaatarka. kala soo xidhiidh 52662323</p>
+
+<div style="background-color:antiquewhite; padding:20px;">
+    <h3>Courses ka ay bixiso waxaa kamida:</h3>
+    @{
+        var data = new List<VoteResult>();
+        data.Add(new VoteResult() { party = "Ikhwaanul Muslimiin 60%" });
+        data.Add(new VoteResult() { party = "Siisi 40%" });
+    }
+    @Html.Partial("_votes",data)
+</div>
+

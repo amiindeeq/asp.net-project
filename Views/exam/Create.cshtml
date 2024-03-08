@@ -1,0 +1,34 @@
+﻿@model exam;
+
+<h3>Create New Result</h3>
+<br />
+
+<form method="post" asp-action="Create">
+
+    <div class="form-group">
+        <label class="form-label"> Student Name</label>
+        <input asp-for="name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Assignment</label>
+        <input asp-for="assignment" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Quiz</label>
+        <input asp-for="quiz" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Midtrem</label>
+        <input asp-for="midterm" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Final</label>
+        <input asp-for="final" class="form-control" />
+    </div>
+
+    <br /><br />
+
+    <a class="btn btn-danger" asp-action="Index">Cancel</a>
+    <button type="submit" class="btn btn-primary">Save</button>
+
+</form>

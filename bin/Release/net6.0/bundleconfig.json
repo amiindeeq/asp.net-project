@@ -1,0 +1,24 @@
+[
+  {
+    "outputFileName": "wwwroot/css/mybundle.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css",
+      "wwwroot/css/test.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/mybundle.min.js",
+    "inputFiles": [
+      "wwwroot/js/site.js",
+      "wwwroot/js/testing.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]

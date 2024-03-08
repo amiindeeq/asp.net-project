@@ -1,0 +1,38 @@
+﻿@model List<stud>;
+
+<h3>List of Student</h3>
+<br />
+<a class="btn btn-primary" asp-action="Create">New Student</a>
+<br />
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th style="width:25%;">Name</th>
+            <th>Age</th>
+            <th>Number</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int counter = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@counter</td>
+                <td>@item.name</td>
+                <td>@item.age.ToString()</td>
+                <td>@item.number</td>
+                <td>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                </td>
+            </tr>
+            counter++;
+
+        }
+    </tbody>
+</table>

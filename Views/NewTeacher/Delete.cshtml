@@ -1,0 +1,29 @@
+﻿@model Teacher;
+
+<h3>Confirm: Do you want to DELETE?</h3>
+<br />
+
+@* We use form tag to collect info from user*@
+<form method="post" asp-controller="NewTeacher" asp-action="Delete">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" readonly class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" readonly class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Mobile" class="form-label"></label>
+        <input asp-for="Mobile" readonly class="form-control" />
+    </div>
+
+    <a class="btn btn-primary" asp-controller="NewTeacher" asp-action="Index">Cancel</a>
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+
+</form>

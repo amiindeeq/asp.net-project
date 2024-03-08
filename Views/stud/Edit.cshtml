@@ -1,0 +1,26 @@
+﻿@model stud;
+
+<h3>Edit Student</h3>
+<br />
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="id" />
+    <div class="form-group">
+        <label class="form-label"> student Name</label>
+        <input asp-for="name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> student Age</label>
+        <input asp-for="age" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> student Number</label>
+        <input asp-for="number" class="form-control" />
+    </div>
+
+    <br /><br />
+
+    <a class="btn btn-danger" asp-action="Index">Cancel</a>
+    <button type="submit" class="btn btn-primary">Edit</button>
+
+</form>

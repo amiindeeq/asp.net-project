@@ -1,0 +1,24 @@
+[
+  {
+    "outputFileName": "wwwroot/css/newbundle.min.css",
+    "inputFiles": [
+      "wwwroot/css/mystyleone.css",
+      "wwwroot/css/mystyletwo.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/newjava.min.js",
+    "inputFiles": [
+      "wwwroot/js/myjavaone.js",
+      "wwwroot/js/myjavatwo.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]

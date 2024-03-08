@@ -1,0 +1,34 @@
+﻿@model exam;
+
+<h3>Confirm: do you want to delete?</h3>
+<br />
+
+<form method="post" asp-action="Delete">
+    <input type="hidden" asp-for="id" />
+    <div class="form-group">
+        <label class="form-label"> teacher Name</label>
+        <input asp-for="name" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Assignment</label>
+        <input asp-for="assignment" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Quiz</label>
+        <input asp-for="quiz" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Middtrem</label>
+        <input asp-for="midterm" class="form-control" disabled />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Final</label>
+        <input asp-for="final" class="form-control" disabled />
+    </div>
+
+    <br /><br />
+
+    <a class="btn btn-primary" asp-action="Index">Cancel</a>
+    <button type="submit" class="btn btn-danger">Yes, Delete !</button>
+
+</form>

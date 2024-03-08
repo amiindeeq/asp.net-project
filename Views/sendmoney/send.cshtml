@@ -1,0 +1,47 @@
+﻿@model deposit;
+
+<center>
+    <h3>Xawaalad Cusub</h3>
+</center>
+
+<br />
+<form asp-controller="sendmoney" asp-action="confirm" method="post">
+    <table style="width:100%">
+        <tr>
+            <td>
+                <b>Number ka Akoonka:</b>
+            </td>
+            <td>
+                <input asp-for="accountnumber" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Magaca Akoonka:</b>
+            </td>
+            <td>
+                <input asp-for="accountname" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Tirada Lacagta:</b>
+            </td>
+            <td>
+                <input asp-for="amount" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Faahfaahin:</b>
+            </td>
+            <td>
+                <input asp-for="remarks" />
+            </td>
+        </tr>
+    </table>
+    <button type="submit">Send Money</button>
+</form>

@@ -1,0 +1,233 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = shift6
+build_property.RootNamespace = shift6
+build_property.ProjectDir = C:\Users\User\Desktop\New folder\aspdetsept23-main\aspdetsept23-main\shift6\shift6\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\New folder\aspdetsept23-main\aspdetsept23-main\shift6\shift6
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Bank/Find.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xGaW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Bank/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Bank/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/classwork/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2xhc3N3b3JrXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/course/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/course/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/course/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/employee/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/exam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZXhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/exam/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZXhhbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/exam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZXhhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/exam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZXhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Home/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Home/LayoutExample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMYXlvdXRFeGFtcGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Home/LayoutExample2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMYXlvdXRFeGFtcGxlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/NewTeacher/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3VGVhY2hlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/NewTeacher/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3VGVhY2hlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/NewTeacher/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3VGVhY2hlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/NewTeacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3VGVhY2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Remittence/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVtaXR0ZW5jZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/sendmoney/confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2VuZG1vbmV5XGNvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/sendmoney/send.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2VuZG1vbmV5XHNlbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Shared/Components/globalvotes/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcZ2xvYmFsdm90ZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Shared/_mainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Shared/_menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9tZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Shared/_votes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF92b3Rlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/StateExamples/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVFeGFtcGxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/student/getStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZGVudFxnZXRTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/student/newstudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZGVudFxuZXdzdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/student/raadi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZGVudFxyYWFkaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/stud/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZFxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/stud/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/stud/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/stud/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/teach/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVhY2hcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/teach/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVhY2hcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/teach/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVhY2hcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/teach/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVhY2hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/New folder/aspdetsept23-main/aspdetsept23-main/shift6/shift6/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jkm29sg3zu

@@ -1,0 +1,35 @@
+﻿@model remittence;
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <form method="post" asp-action="Create">
+            <div class="form-group">
+                <label class="form-label">Sender</label>
+                <input class="form-control" asp-for="sender" required placeholder="Enter sender" />
+            </div>
+            <br />
+             <div class="form-group">
+                <label class="form-label">Receiver</label>
+                <input class="form-control" asp-for="receiver" required placeholder="Enter receiver" />
+            </div>
+            <br />
+             <div class="form-group">
+                <label class="form-label">Amount</label>
+                <input class="form-control" asp-for="amount" required placeholder="Enter amount" />
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="form-label">Remarks</label>
+                <textarea class="form-control" asp-for="remarks"></textarea>
+            </div>
+            <br />
+            <input class="btn btn-primary" type="submit" value="Send Money" />
+            @if (ViewData["msg"] != "")
+            {
+                <h3 style="color:red;">@ViewData["msg"]</h3>
+            }
+        </form>
+    </div>
+    <div class="col-4"></div>
+</div>

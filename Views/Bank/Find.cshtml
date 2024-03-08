@@ -1,0 +1,25 @@
+﻿@using shift6.Models;
+@model account;
+
+<h3>Find Bank Account</h3>
+<hr />
+<br />
+
+<form method="post" asp-action="Find">
+    <div class="row">
+        <div class="col-md-2">
+            <input type="number" asp-for="accno" class="form-control" />
+        </div>
+        <div class="col-md-1">
+            <button type="submit" class="btn btn-danger" >Find</button>
+        </div>
+    </div>
+
+</form>
+
+<br />
+@if(ViewData["data_found"].ToString()=="1"){
+    <div class="bg-warning">
+        <b>Account Name:</b> @Model.name
+    </div>
+}

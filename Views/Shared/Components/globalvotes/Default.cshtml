@@ -1,0 +1,10 @@
+﻿@model List<voteresults>
+
+<h3>Global Votes Result</h3>
+
+<ol>
+    @foreach(var item in Model)
+    {
+        <li><a href="details?xisbi=@item.party&tirada=@item.percent.ToString()">@item.party - @item.percent.ToString()%</a></li>
+    }
+</ol>

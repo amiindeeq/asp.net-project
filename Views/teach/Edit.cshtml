@@ -1,0 +1,26 @@
+﻿@model teach;
+
+<h3>Edit Teacher</h3>
+<br />
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="id" />
+    <div class="form-group">
+        <label class="form-label"> Teacher Name</label>
+        <input asp-for="name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Course ID</label>
+        <input asp-for="c_id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Employee ID</label>
+        <input asp-for="e_id" class="form-control" />
+    </div>
+
+    <br /><br />
+
+    <a class="btn btn-danger" asp-action="Index">Cancel</a>
+    <button type="submit" class="btn btn-primary">Edit</button>
+
+</form>

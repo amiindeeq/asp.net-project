@@ -1,0 +1,29 @@
+﻿@model Teacher;
+
+<h3>Edit Teacher</h3>
+<br />
+
+@* We use form tag to collect info from user*@
+<form method="post" asp-controller="NewTeacher" asp-action="Edit">
+
+    <input type="hidden" asp-for="Id"/>
+
+    <div class="form-group">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Mobile" class="form-label"></label>
+        <input asp-for="Mobile" class="form-control" />
+    </div>
+
+    <a class="btn btn-danger" asp-controller="NewTeacher" asp-action="Index">Cancel</a>
+    <button type="submit" class="btn btn-primary">Save</button>
+
+</form>

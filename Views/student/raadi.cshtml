@@ -1,0 +1,45 @@
+﻿@model List<student>;
+
+<div style="text-align:center">
+    <h3>All Students</h3>
+</div>
+
+<a class="btn btn-primary" asp-controller="student" asp-action="newstudent">New + </a>
+
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.id.ToString()</td>
+                <td>@item.name</td>
+                <td>@item.email</td>
+                <td>
+                    <button class="btn btn-success">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+            
+        }
+    </tbody>
+</table>
+
+<br />
+<h3>Display the students in Ordered List Tag</h3>
+<br />
+
+<ol>
+    @foreach(var item in Model)
+    {
+        <li>@item.name</li>
+    }
+</ol>

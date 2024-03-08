@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["title"] = "State Examples";
+}
+<h2>@ViewBag.msg</h2>   @* here we mixed html and c# code*@
+
+<hr />
+
+<b>Current User:</b> @ViewData["username"].ToString()
+<br />
+<b>Role:</b> @ViewData["role"].ToString()
+<br />
+
+
+@{
+        /*
+        here we are writing c# code block which declare varaibles
+    */
+    string x = "You have tried: ";
+    int count = 10;
+}
+
+<p>Trials: @x @count times</p>  @* razor view engine will generate approperiate html markup for the client to understand*@
+
+@if(count>15)
+{
+    <div style="background-color:red; border: 1px solid; border-radius:20px; padding:50px;">you are blocked. your trails exceeded 15 times</div>
+}
+else
+{
+    <div style="background-color:cyan; border: 1px solid; border-radius:20px; padding:50px;">Welcome dear user: @ViewData["username"].ToString()</div>
+}
+
+
+<br />
+
+<a href="/home/index">Go to Home</a> @* HTML *@
+<br />
+<a  asp-controller="Home" asp-action="Index">Go to Home</a>  @* Razor markup (html+c#) *@

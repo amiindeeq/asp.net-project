@@ -1,0 +1,32 @@
+﻿<html>
+<head>
+    <title>Layout Title</title>
+</head>
+<body>
+
+    <table width="100%" border="0">
+        <tr>
+            <td>
+                <h2>
+                    @Html.Partial("_menu")
+                </h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @RenderBody()
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Footer Location</h2>
+                @Html.Partial("_menu")
+            </td>
+        </tr>
+    </table>
+
+
+    @RenderSection("jscript",required:false)
+
+</body>
+</html>

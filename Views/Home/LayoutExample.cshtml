@@ -1,0 +1,28 @@
+﻿
+
+<table border="1" width="100%">
+    <tr height="400px;">
+        <td width="70%">
+            <h2>This is inside the view</h2>
+            <h4>Another Header</h4>
+        </td>
+        <td>
+          @*  @{
+                var data = new List<VoteResult>();
+                data.Add(new VoteResult() { party = "Wadani 60%" });
+                data.Add(new VoteResult() { party = "Kaah 40%" });
+            }
+            @Html.Partial("_votes",data)*@
+
+            @await Component.InvokeAsync("globalvotes");
+        </td>
+    </tr>
+</table>
+
+
+@*@section jscript{
+    <script>
+        console.log('JS code is running ....');
+    </script>
+}
+*@

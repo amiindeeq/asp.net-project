@@ -1,0 +1,14 @@
+﻿
+@model List<VoteResult>
+
+<div style="background-color:burlywood;">
+    <center>
+    <h4>Vote Result</h4>
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>@item.party</li>
+        }
+    </ul>
+</center>
+</div>

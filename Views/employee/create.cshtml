@@ -1,0 +1,22 @@
+﻿@model employee;
+
+<h3>Create New Employee</h3>
+<br />
+
+<form method="post" asp-action="Create">
+
+    <div class="form-group">
+        <label class="form-label"> Employee Name</label>
+        <input asp-for="name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="form-label"> Employee Phone</label>
+        <input asp-for="phone" class="form-control" />
+    </div>
+
+    <br /><br />
+
+    <a class="btn btn-danger" asp-action="Index">Cancel</a>
+    <button type="submit" class="btn btn-primary">Save</button>
+
+</form>

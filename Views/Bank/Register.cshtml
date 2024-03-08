@@ -1,0 +1,26 @@
+﻿@using shift6.Models;
+@model account;
+
+
+<h3>Account Register</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Register">
+            <input asp-for="accno" placeholder="Enter Account No" class="form-control" /> <br />
+            <input asp-for="name" placeholder="Enter Account Name" class="form-control" /> <br />
+            <button type="submit" class="btn btn-primary">Submit Data</button>
+        </form>
+    </div>
+</div>
+<br />
+
+@if (ViewBag.error == null)
+{
+    <p>@ViewBag.msg</p>
+}
+else
+{
+    <p>@ViewBag.error</p>
+    
+}
+
